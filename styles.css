@@ -20,13 +20,15 @@ body{
 }
 .content{
     position: absolute;
+    display: inline-block;
     color:black;
     background-color: #000;
     opacity: 0.87;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 80%;
+    max-width: 750px;
     height: 250px;
     border-radius: 20px;
     padding: 30px;
@@ -62,8 +64,8 @@ body{
       height: 100px;
       object-fit: contain;
       background-image: url("preet2.jpg");
-      margin-left: 41%;
-      margin-right: 50%;
+      margin-left: auto;
+      margin-right: auto;
       background-size: cover;
       display: block;
   }
@@ -78,12 +80,15 @@ body{
   }
 
   #ref{
-      color: none;
-      position: relative;
-      letter-spacing: 1.5em;
+      display: inline-block;
+      position: absolute;
+      width: auto;
+      letter-spacing: 1em;
       font-size: 1.5em;
       bottom: 1em;
-      left: 7.6em;
+      left: 52%;
+      transform: translate(-50%,-50%);
+      
   }
 
 .fab fa-linkedin{
